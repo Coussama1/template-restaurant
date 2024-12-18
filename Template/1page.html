@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="1page.css" rel="stylesheet">
+    <title>Reastaurant</title>
+</head>
+<body>
+    <header>
+        <img src="Logo.jpg" alt="logo" id="Home">
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#Menu">Menu</a>
+            <a href="#cantact">Cantact</a>
+            <a href="#AboutUs">About Us</a>
+        </nav>
+        <div>
+            <a href="#order">Make An Online Order</a>
+        </div>
+    </header>
+    <main>
+        <section class="food" id="Menu">
+            <div class="title1">
+                <h3>New</h3>
+                <h1>Tast Our Food And Enjoy </h1>
+            </div>
+            <div class="img">
+                <img src="Roulet de didnde.jpg" alt="juice">
+                <img src="Filet.jpg" alt="ice cream">
+                <img src="Escalope de poulet.jpg" alt="spaghetti">
+                <img src="plat.jpg" alt="bread">
+            </div>
+            <div class="pizza">
+                <img src="Pizza4.jpg" alt="pizza4season">
+                <img src="Pizza2.jpg" alt="pizza">
+                <img src="Pizza.jpg" alt="pizza">
+                <img src="Pizza3.jpg" alt="">
+            </div> 
+            <div >
+                <h2>Visit Our Restaurant To Discover More And More delicious food...</h2>
+                <h1>make your presence</h1>
+                <button type="button" id="see"> See More</button>
+                
+            </div>       
+        </section>
+        <section class="Order">
+            <div class="title_order">
+                <h2>If  Your Busy Make Your Order On Our Online Services  !!!</h2>
+                <h2>We Are Ready For You !!!</h2>
+            </div>
+            <form action="test.php" method="get" id="order">
+                <div>
+                    <input type="text" name="Name" id="Name" placeholder="Your Name">
+                </div>
+                <div>
+                    <input type="text" placeholder="Your Subject">
+                </div>
+                <div>
+                    <input type="email" placeholder="Your Email">
+                </div>
+                <div>
+                    <input type="checkbox" id="copyCheckbox">
+                    <label for="copyCheckbox">Send A Copy</label>
+                </div>
+                <div>
+                    <textarea name="discription" id="disc" cols="30" rows="10" placeholder="Suggest something"></textarea>
+                </div>
+                <div>
+                    <input type="button" value="Give A Shot" id="shot">
+                </div>
+            </div>
+            </form>           
+        </section>
+    </main>
+    
+</body>
+</html>
